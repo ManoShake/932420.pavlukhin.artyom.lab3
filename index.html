@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Персональная страница техноблогера Громанцева Григория: гаджеты недели, сравнение характеристик, обзоры и обратная связь.">
+    <title>Громанцев - о себе</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Громанцев Григорий</h1>
+        <p class="subtitle">Независимый техногик и обзорщик электроники</p>
+        <nav class="main-nav" aria-label="Основное меню">
+            <ul>
+                <li><a href="#about">О себе</a></li>
+                <li><a href="#gadgets">Гаджеты недели</a></li>
+                <li><a href="#compare">Сравнение</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#feedback">Обратная связь</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about" id="about">
+            <h2>О себе</h2>
+            <img src="files/avatar.jpg" alt="Портрет техноблогера" width="300" height="400">
+            <p>В сфере техноблога с 2018 года. Обзоры без воды, честные тесты и глубокое погружение в технологии. Живу среди проводов, мониторов, коробок от комплектующих и бесконечных обновлений прошивок.</p>
+        </section>
+        <section class="skills">
+            <h2>Навыки</h2>
+            <ul>
+                <li>Сравнительный анализ технических характеристик устройств</li>
+                <li>Краш-тест смартфонов и планшетов</li>
+                <li>Тестирование и бенчмаркинг мобильных устройств и ПК</li>
+                <li>Комментирование и транслирование презентаций анонсированных устройств</li>
+                <li>Обзор и тестирование старых устройств в современных реалиях</li>
+            </ul>
+        </section>
+        <section id="gadgets" aria-labelledby="gadgets-title">
+            <h2 id="gadgets-title">Гаджеты недели</h2>
+            <div class="cards">
+                <article class="card">
+                    <img src="files/gadget-phone.jpg" alt="Смартфон Super Ultra Mega Phone X100 Pro Deluxe с блоком камер на задней панели" width="400" height="300">
+                    <div class="card-body">
+                        <h3>Super Ultra Mega Phone X100 Pro Deluxe</h3>
+                        <p><strong>Фишка:</strong> камера-перископ с 100-кратным оптическим зумом.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="files/gadget-tablet.jpg" alt="Планшет NeuraSync Pad 11 со стилусом" width="400" height="300">
+                    <div class="card-body">
+                        <h3>NeuraSync Pad 11</h3>
+                        <p><strong>Фишка:</strong> все функции планшета по подписочному сервису.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="files/gadget-pda.jpg" alt="Карманный компьютер Aetheria Pocket с физической клавиатурой" width="400" height="300">
+                    <div class="card-body">
+                        <h3>Aetheria Pocket КПК</h3>
+                        <p><strong>Фишка:</strong> Работает без интернета.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="files/gadget-watch.jpg" alt="Умные часы Aetheria Watch S2 с оранжевым циферблатом" width="400" height="300">
+                    <div class="card-body">
+                        <h3>Aetheria Watch S2</h3>
+                        <p><strong>Фишка:</strong> ИИ-помощник, уговаривающий сходить в Rostics.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="compare" aria-labelledby="compare-title">
+            <h2 id="compare-title">Сравнение характеристик</h2>
+            <div class="stats">
+                <article class="stat">
+                    <h3>Процессор</h3>
+                    <dl>
+                        <div><dt>X100 Pro Deluxe</dt><dd><data value="8">8 ядер</data></dd></div>
+                        <div><dt>NeuraSync Pad 11</dt><dd><data value="6">6 ядер</data></dd></div>
+                        <div><dt>Aetheria Pocket</dt><dd><data value="4">4 ядра</data></dd></div>
+                        <div><dt>Aetheria Watch S2</dt><dd><data value="2">2 ядра</data></dd></div>
+                    </dl>
+                </article>
+                <article class="stat">
+                    <h3>Экран</h3>
+                    <dl>
+                        <div><dt>X100 Pro Deluxe</dt><dd><data value="6.9">6,9″</data></dd></div>
+                        <div><dt>NeuraSync Pad 11</dt><dd><data value="11">11″</data></dd></div>
+                        <div><dt>Aetheria Pocket</dt><dd><data value="5.5">5,5″</data></dd></div>
+                        <div><dt>Aetheria Watch S2</dt><dd><data value="1.4">1,4″</data></dd></div>
+                    </dl>
+                </article>
+                <article class="stat">
+                    <h3>Батарея</h3>
+                    <dl>
+                        <div><dt>X100 Pro Deluxe</dt><dd><data value="5500">5&nbsp;500 мА·ч</data></dd></div>
+                        <div><dt>NeuraSync Pad 11</dt><dd><data value="8000">8&nbsp;000 мА·ч</data></dd></div>
+                        <div><dt>Aetheria Pocket</dt><dd><data value="4000">4&nbsp;000 мА·ч</data></dd></div>
+                        <div><dt>Aetheria Watch S2</dt><dd><data value="450">450 мА·ч</data></dd></div>
+                    </dl>
+                </article>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Проекты</h2>
+            <ol>
+                <li>GTA 6 на ZX Spectrum!? ОНО ЗАПУСТИЛОСЬ!!!</li>
+                <li>Выдержит ли iPhone X вес танка Т-34? Краш-тест</li>
+                <li>Мощный бюджетный смартфон из Китая! Обзор на <b>Super Ultra Mega Phone X100 Pro Deluxe</b></li>
+                <li>Запись прямой трансляции <b>"Omni-X Unveiling: The Cosmic Convergence of Glass and Metal"</b>. Все анонсы (На русском языке)</li>
+                <li><b>Super Ultra Mega Phone X100 Pro Deluxe</b> vs <b>iPhone DUO</b>. Сравнительный анализ (Я ошарашен!)</li>
+            </ol>
+        </section>
+        <section class="feedback" id="feedback">
+            <h2>Обратная связь</h2>
+            <p>Жалоба? Предложение? Благодарность? Сотрудничество? Милости прошу!</p>
+            <form action="#" method="post">
+                <div class="field">
+                    <label for="username">Имя:</label>
+                    <input type="text" id="username" name="username" placeholder="Введите ваше имя" required>
+                </div>
+                <div class="field">
+                    <label for="email">Электронная почта</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                </div>
+                <div class="field">
+                    <label for="message">Сообщение</label>
+                    <textarea id="message" name="message" placeholder="Введите сообщение" required></textarea>
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <aside>
+        <h3>Любимая категория устройств</h3>
+        <p>Мини-ПК и КПК</p>
+        <h3>Предпочтительные бренды</h3>
+        <ul>
+            <li>Aetheria</li>
+            <li>NeuraSync</li>
+            <li>Xiaomi</li>
+        </ul>
+        <h3>Полезные ссылки</h3>
+        <ul>
+            <li><a href="https://www.youtube.com/channel/UCKLdIgFL1DjyF_JfM3uM5nw" target="_blank" rel="noopener">Мой канал на YouTube</a></li>
+            <li><a href="https://mastodon.ml/about" target="_blank" rel="noopener">Я в Mastodon</a></li>
+            <li><a href="https://openvk.org" target="_blank" rel="noopener">Я в OpenVK</a>"</li>
+        </ul>
+    </aside>
+    <footer>
+        <p>&copy; 2026 Громанцев Григорий. Все права защищены.</p>
+    </footer>
+</body>
+</html>
